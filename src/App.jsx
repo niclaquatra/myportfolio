@@ -35,7 +35,7 @@ function App() {
     <div className={`cover-page ${themeClass}`} style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
       <h1 style={{ fontSize: '3rem', marginBottom: '1rem', color: darkMode ? '#fff' : '#222' }}>Nicolas LaQuatra</h1>
       <h2 style={{ fontWeight: 400, marginBottom: '2rem', color: darkMode ? '#fff' : '#555' }}>Showcasing My Projects & Skills</h2>
-      <button className="theme-toggle-btn" onClick={toggleDarkMode} aria-label="Toggle theme">
+      <button className="theme-toggle-btn" onClick={toggleDarkMode} aria-label="Toggle theme" alt="Toggle Theme">
         {darkMode ? (
           // Sun icon for dark mode
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
